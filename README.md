@@ -13,5 +13,5 @@ how those principles converge to the proposed architecture.
 time-series, which is known to cause a substantial discrepancy between the training and test data
 distributions
 
-### Model architecture:
+### Model Architectures:
 >[Nbeats Only Architecture](https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/nbeats.png) | [Nbeats+RevIN Architecture](https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/nbeats-revin.png)
