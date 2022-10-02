@@ -14,4 +14,5 @@ time-series, which is known to cause a substantial discrepancy between the train
 distributions
 
 ### Model architecture:
-<img src="https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/nbeats-revin.png" alt="Nbeats+RevIN Architecture">
+[Nbeats Architecture"]("https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/nbeats.png")
+[Nbeats+RevIN Architecture"]("https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/nbeats-revin.png")
