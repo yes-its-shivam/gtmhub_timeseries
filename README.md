@@ -15,5 +15,4 @@ distributions
 
 ### Model architecture:
 >[Nbeats Architecture](https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/nbeats.png)
-
 >[Nbeats+RevIN Architecture](https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/nbeats-revin.png)
