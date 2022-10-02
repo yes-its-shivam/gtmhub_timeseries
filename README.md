@@ -12,3 +12,6 @@ how those principles converge to the proposed architecture.
 > In this technique a new reversible instance normalization technique is introduced to alleviate the distribution shift problem in
 time-series, which is known to cause a substantial discrepancy between the training and test data
 distributions
+
+### Model architecture:
+[Screenshot](screenshot.png)
