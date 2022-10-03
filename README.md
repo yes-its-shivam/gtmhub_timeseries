@@ -1,6 +1,8 @@
 # gtmhub_timeseries
 This respository is created inorder to implement nbeats algorithm  [N-beats research paper](https://arxiv.org/pdf/1905.10437.pdf) with RevIN normalisation [RevIN paper](https://openreview.net/pdf?id=cGDAkQo1C0p).
 
+## ABSTRACT
+
 ### N-BEATS ALGORITHM:
 > Nbeats architecture design methodology relies on a few key principles. First, the base architecture
 should be simple and generic, yet expressive (deep). Second, the architecture should not rely on timeseries-specific feature engineering or input scaling. These prerequisites let us explore the potential
