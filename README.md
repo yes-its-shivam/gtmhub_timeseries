@@ -1,5 +1,5 @@
 # gtmhub_timeseries
-This respository is created inorder to implement nbeats algorithm  [N-beats research paper](https://arxiv.org/pdf/1905.10437.pdf) with RevIN normalisation [RevIN paper](https://openreview.net/pdf?id=cGDAkQo1C0p).
+This respository is created inorder to implement nbeats algorithm  [N-beats paper](https://arxiv.org/pdf/1905.10437.pdf) with RevIN normalisation [RevIN paper](https://openreview.net/pdf?id=cGDAkQo1C0p).
 
 ## ABSTRACT
 
