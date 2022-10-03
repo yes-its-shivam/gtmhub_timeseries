@@ -1,5 +1,8 @@
 # gtmhub_timeseries
-This respository is created inorder to implement nbeats algorithm  [N-beats paper](https://arxiv.org/pdf/1905.10437.pdf) with RevIN normalisation [RevIN paper](https://openreview.net/pdf?id=cGDAkQo1C0p).
+This respository is created inorder to implement nbeats algorithm  [NEURAL BASIS EXPANSION ANALYSIS FOR
+INTERPRETABLE TIME SERIES](https://arxiv.org/pdf/1905.10437.pdf) with RevIN normalisation [REVERSIBLE INSTANCE NORMALIZATION FOR
+ACCURATE TIME-SERIES FORECASTING AGAINST
+DISTRIBUTION SHIFT](https://openreview.net/pdf?id=cGDAkQo1C0p).
 
 ## ABSTRACT
 
