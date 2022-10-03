@@ -20,3 +20,7 @@ distributions
 
 ### Model Architectures:
 >[Nbeats Only Architecture](https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/nbeats.png) | [Nbeats+RevIN Architecture](https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/nbeats-revin.png)
+
+### QUICK START
+
+`code`
