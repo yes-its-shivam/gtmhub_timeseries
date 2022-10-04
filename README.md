@@ -33,7 +33,6 @@ df.drop('Unnamed: 0',axis=1,inplace=True)
 
 ### Benchmarks
 
-| Command | Description |
-| --- | --- |
+| --- | --- | --- | --- |
 | SNo. | N-Beats | Nbeats+RevIN | Facebook Prophet |
 | SNo. | .... | .... | .... |
