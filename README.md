@@ -25,7 +25,6 @@ distributions
 
 ##### In the nbeats-revin-forecast.py define the location to your .csv file
 ```
-....
 df = pd.read_csv(YOUR FILE PATH HERE, parse_dates = ['timestamp'], index_col = 'timestamp')
 # sort by dates
 df.sort_index(inplace = True)
