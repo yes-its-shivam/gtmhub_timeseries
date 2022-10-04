@@ -40,6 +40,7 @@ distributions
 ### QUICK START
 
 ```
+#dependencies
 !git clone https://github.com/yes-its-shivam/gtmhub_timeseries.git
 %cd gtmhub_timeseries
 !pip install -r requirements.txt
