@@ -35,5 +35,5 @@ df.drop('Unnamed: 0',axis=1,inplace=True)
 
 | Command | Description |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| SNo. | N-Beats | Nbeats+RevIN | Facebook Prophet |
+| SNo. | .... | .... | .... |
