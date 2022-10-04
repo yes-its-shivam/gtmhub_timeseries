@@ -38,8 +38,11 @@ distributions
 
 
 ### QUICK START
+
 ```
-!git clone 
+!git clone https://github.com/yes-its-shivam/gtmhub_timeseries.git
+!cd gtmhub_timeseries
+!pip install requirements.txt
 ```
 ##### In the nbeats-revin-forecast.py define the location to your .csv file
 ```
