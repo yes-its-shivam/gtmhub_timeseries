@@ -30,6 +30,9 @@ df = pd.read_csv(YOUR FILE PATH HERE, parse_dates = ['timestamp'], index_col = '
 df.sort_index(inplace = True)
 df.drop('Unnamed: 0',axis=1,inplace=True)
 ```
+
+### Benchmarks
+
 | Command | Description |
 | --- | --- |
 | git status | List all new or modified files |
