@@ -41,8 +41,8 @@ distributions
 
 ```
 !git clone https://github.com/yes-its-shivam/gtmhub_timeseries.git
-!cd gtmhub_timeseries
-!pip install requirements.txt
+%cd gtmhub_timeseries
+!pip install -r requirements.txt
 ```
 ##### In the nbeats-revin-forecast.py define the location to your .csv file
 ```
