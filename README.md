@@ -38,7 +38,9 @@ distributions
 
 
 ### QUICK START
-
+```
+!git clone 
+```
 ##### In the nbeats-revin-forecast.py define the location to your .csv file
 ```
 df = pd.read_csv(YOUR FILE PATH HERE, parse_dates = ['timestamp'], index_col = 'timestamp')
