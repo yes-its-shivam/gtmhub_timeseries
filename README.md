@@ -33,4 +33,5 @@ df.drop('Unnamed: 0',axis=1,inplace=True)
 
 ### Benchmarks
 | SNo. | N-Beats | Nbeats+RevIN | Facebook Prophet |
+| --- | --- | --- | --- |
 | SNo. | .... | .... | .... |
