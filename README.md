@@ -23,7 +23,7 @@ distributions
 
 
 ### Benchmarks
-
+[Nbeats+RevIN Plots](https://github.com/yes-its-shivam/gtmhub_timeseries/tree/main/images/nbeats%2Brevin) | [Nbeats Only Plots](https://github.com/yes-its-shivam/gtmhub_timeseries/tree/main/images/nbeats) | [Prophet Plots](https://github.com/yes-its-shivam/gtmhub_timeseries/tree/main/images/prophet)
 <table>
 <tr><th>NBEATS+REVIN</th><th>NBEATS</th><th>PROPHET</th></tr>
 <tr><td>
