@@ -55,6 +55,7 @@ df.drop('Unnamed: 0',axis=1,inplace=True)
 
 ### Conclusions:
 
-* Bullet list
-  * Nested bullet
+* The combined model is performing better for dataset with less amount of randomness
+   * for dataset with more randomness we need more data
+* Overall performance of the combined model is better then just nbeats model
       
