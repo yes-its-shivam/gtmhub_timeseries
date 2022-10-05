@@ -23,7 +23,7 @@ distributions
 
 
 ### Benchmarks
-##### *Benchmarking done on first 6 datasets*
+##### *(Benchmarking done on first 6 datasets)*
 [Nbeats+RevIN plots](https://github.com/yes-its-shivam/gtmhub_timeseries/tree/main/images/nbeats%2Brevin) | [Nbeats Only Architecture](https://github.com/yes-its-shivam/gtmhub_timeseries/tree/main/images/nbeats) | [Nbeats Only Architecture](https://github.com/yes-its-shivam/gtmhub_timeseries/tree/main/images/prophet) 
 <table>
 <tr><th>NBEATS+REVIN</th><th>NBEATS</th><th>PROPHET</th></tr>
@@ -98,5 +98,5 @@ print(str(filename)+' '+'Done!!!')
 
 * The combined model is clearly working better then nbeats only architecture and facebook's prophet algorithm.
 * The combined model is performing better for dataset with less amount of randomness
-   * for dataset with more randomness either we need more data or we can try implementing nbeats with ensembling combined with RevIN
-* After observing the graphs of forecast we can derive various insights for business usecases
+* for dataset with more randomness either we need more data or we can try implementing nbeats with ensembling combined with RevIN
+* After observing the graphs of forecast we can derive various insights for business usecases.
