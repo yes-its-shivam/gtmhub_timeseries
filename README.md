@@ -23,7 +23,7 @@ distributions
 
 
 ### Benchmarks
->[Nbeats+RevIN Plots](https://github.com/yes-its-shivam/gtmhub_timeseries/tree/main/images/nbeats%2Brevin) | [Nbeats Only Plots](https://github.com/yes-its-shivam/gtmhub_timeseries/tree/main/images/nbeats) | [Prophet Plots](https://github.com/yes-its-shivam/gtmhub_timeseries/tree/main/images/prophet)
+
 <table>
 <tr><th>NBEATS+REVIN</th><th>NBEATS</th><th>PROPHET</th></tr>
 <tr><td>
@@ -69,35 +69,18 @@ distributions
 %cd gtmhub_timeseries
 !pip install -r requirements.txt
 ```
-##### In the nbeats-revin-forecast.py define the location to your .csv file, output plot dir and output metric score dir
+##### In the nbeats-revin-forecast.py define the location to your .csv file
 ```
-df = pd.read_csv(YOUR FILE PATH HERE, parse_dates = ['timestamp'], index_col = 'timestamp')  <----
+df = pd.read_csv(YOUR FILE PATH HERE, parse_dates = ['timestamp'], index_col = 'timestamp')
 # sort by dates
 df.sort_index(inplace = True)
 df.drop('Unnamed: 0',axis=1,inplace=True)
-.
-.
-plt.plot(preds['Prediction'][int(len(preds['Prediction'])*0.75):],color='red',linewidth=0.5)
-plt.legend(['Real value train','Real value test','Prediction'])
-plt.grid(True)
-plt.savefig('FILENAME_PATH'+'.png') <----
-
-score=[]
-for i,j in nbeats_model_results.items():
-  score.append(i+':'+str(j))
-score_dict[str(filename)]= score
-
-with open('PATH_TO_SCORE_FILE', 'w') as score_file: <----
-  score_file.write(json.dumps(score_dict))
-
-print(str(filename)+' '+'Done!!!')
 ```
-> For multiple csv files at same time refer to notebook [Notebook](XYZ)
 
 ### Conclusions:
 
-* The combined model is clearly working much better then nbeats only modela and facebook's prophet model.
 * The combined model is performing better for dataset with less amount of randomness
-   * for dataset with more randomness either we need more data points or we can try implementing nbeats with ensembling combined with RevIN
-* After analyzing the plots of all the data files excellent insights can be derived for business usecases
+   * for dataset with more randomness either we need more data or we can try implementing nbeats with ensembling combined with RevIN
+* Overall performance of the combined model is better then just nbeats model
+* Overall performance
       
