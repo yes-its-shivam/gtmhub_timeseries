@@ -69,7 +69,7 @@ distributions
 %cd gtmhub_timeseries
 !pip install -r requirements.txt
 ```
-##### In the nbeats-revin-forecast.py define the location to your .csv file, output plot dir, output metric score dir
+##### In the nbeats-revin-forecast.py define the location to your .csv file, output plot dir and output metric score dir
 ```
 df = pd.read_csv(YOUR FILE PATH HERE, parse_dates = ['timestamp'], index_col = 'timestamp')
 # sort by dates
