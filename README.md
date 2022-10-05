@@ -44,15 +44,36 @@ distributions
 <tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
 <tr><td>
 
-|Table 1| Middle | Table 2|
-|--|--|--|
-|a| not b|and c |
+| SNo. | MAE | MSE | RMSE | MAPE |
+| --- | --- | --- | --- | --- |
+| 1 |  |  |  | |
+| 2 |  |  |  | |
+| 3 |  |  |  | |
+| 4 |  |  |  | |
+| 5 |  |  |  | |
+| 6 |  |  |  | |
 
 </td><td>
 
-|b|1|2|3| 
-|--|--|--|--|
-|a|s|d|f|
+| SNo. | MAE | MSE | RMSE | MAPE |
+| --- | --- | --- | --- | --- |
+| 1 |  |  |  | |
+| 2 |  |  |  | |
+| 3 |  |  |  | |
+| 4 |  |  |  | |
+| 5 |  |  |  | |
+| 6 |  |  |  | |
+  
+</td><td>
+
+| SNo. | MAE | MSE | RMSE | MAPE |
+| --- | --- | --- | --- | --- |
+| 1 |  |  |  | |
+| 2 |  |  |  | |
+| 3 |  |  |  | |
+| 4 |  |  |  | |
+| 5 |  |  |  | |
+| 6 |  |  |  | |
 
 </td></tr> </table>
 
