@@ -52,3 +52,9 @@ df = pd.read_csv(YOUR FILE PATH HERE, parse_dates = ['timestamp'], index_col = '
 df.sort_index(inplace = True)
 df.drop('Unnamed: 0',axis=1,inplace=True)
 ```
+
+### Conclusions:
+Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
