@@ -80,7 +80,7 @@ df.drop('Unnamed: 0',axis=1,inplace=True)
 plt.plot(preds['Prediction'][int(len(preds['Prediction'])*0.75):],color='red',linewidth=0.5)
 plt.legend(['Real value train','Real value test','Prediction'])
 plt.grid(True)
-plt.savefig(- 'FILENAME_PATH'+'.png')
+plt.savefig(diff- 'FILENAME_PATH'+'.png')
 
 score=[]
 for i,j in nbeats_model_results.items():
