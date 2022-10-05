@@ -4,6 +4,8 @@ Interpretable Time Series](https://arxiv.org/pdf/1905.10437.pdf) with RevIN norm
 Accurate Time-Series Forecasting Against
 Distribution Shift](https://openreview.net/pdf?id=cGDAkQo1C0p).
 
+[A Detailed report can be found here](https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/report.pdf)
+
 ## ABSTRACT
 
 ### N-BEATS ALGORITHM:
