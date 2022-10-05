@@ -23,25 +23,9 @@ distributions
 
 
 ### Benchmarks
-| SNo. | MAE | MSE | RMSE | MAPE |
-| --- | --- | --- | --- | --- |
-| 1 |  |  |  | |
-| 2 |  |  |  | |
-| 3 |  |  |  | |
-| 4 |  |  |  | |
-| 5 |  |  |  | |
-| 6 |  |  |  | |
-| SNo. | MAE | MSE | RMSE | MAPE |
-| --- | --- | --- | --- | --- |
-| 1 |  |  |  | |
-| 2 |  |  |  | |
-| 3 |  |  |  | |
-| 4 |  |  |  | |
-| 5 |  |  |  | |
-| 6 |  |  |  | |
 
 <table>
-<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
+<tr><th>NBEATS ONLY </th><th>PROPHET</th><th>NBEATS+REVIN</th></tr>
 <tr><td>
 
 | SNo. | MAE | MSE | RMSE | MAPE |
