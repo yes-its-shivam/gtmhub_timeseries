@@ -92,6 +92,7 @@ with open('PATH_TO_SCORE_FILE', 'w') as score_file:
 
 print(str(filename)+' '+'Done!!!')
 ```
+> For multiple csv files at same time refer to notebook [Notebook](XYZ)
 
 ### Conclusions:
 
