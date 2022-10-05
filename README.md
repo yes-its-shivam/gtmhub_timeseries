@@ -95,8 +95,7 @@ print(str(filename)+' '+'Done!!!')
 
 ### Conclusions:
 
+* The combined model is clearly working better then nbeats only architecture and facebook's prophet algorithm.
 * The combined model is performing better for dataset with less amount of randomness
    * for dataset with more randomness either we need more data or we can try implementing nbeats with ensembling combined with RevIN
-* Overall performance of the combined model is better then just nbeats model
-* Overall performance
-      
+* After observing the graphs of forecast we can derive various insights for business usecases
