@@ -79,8 +79,8 @@ df.drop('Unnamed: 0',axis=1,inplace=True)
 
 ### Conclusions:
 
+* The combined model is clearly working much better then nbeats only modela and facebook's prophet model.
 * The combined model is performing better for dataset with less amount of randomness
-   * for dataset with more randomness either we need more data or we can try implementing nbeats with ensembling combined with RevIN
-* Overall performance of the combined model is better then just nbeats model
-* Overall performance
+   * for dataset with more randomness either we need more data points or we can try implementing nbeats with ensembling combined with RevIN
+* After analyzing the plots of all the data files excellent insights can be derived for business usecases
       
