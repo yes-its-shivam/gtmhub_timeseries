@@ -54,7 +54,7 @@ df.drop('Unnamed: 0',axis=1,inplace=True)
 ```
 
 ### Conclusions:
-Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+
+* Bullet list
+  * Nested bullet
+      
