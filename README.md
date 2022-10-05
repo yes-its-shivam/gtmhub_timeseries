@@ -71,7 +71,7 @@ distributions
 ```
 ##### In the nbeats-revin-forecast.py define the location to your .csv file, output plot dir and output metric score dir
 ```
-df = pd.read_csv(YOUR FILE PATH HERE, parse_dates = ['timestamp'], index_col = 'timestamp')
+df = pd.read_csv(-YOUR FILE PATH HERE, parse_dates = ['timestamp'], index_col = 'timestamp')
 # sort by dates
 df.sort_index(inplace = True)
 df.drop('Unnamed: 0',axis=1,inplace=True)
@@ -80,14 +80,14 @@ df.drop('Unnamed: 0',axis=1,inplace=True)
 plt.plot(preds['Prediction'][int(len(preds['Prediction'])*0.75):],color='red',linewidth=0.5)
 plt.legend(['Real value train','Real value test','Prediction'])
 plt.grid(True)
-plt.savefig('FILENAME_PATH'+'.png')
+plt.savefig(-'FILENAME_PATH'+'.png')
 
 score=[]
 for i,j in nbeats_model_results.items():
   score.append(i+':'+str(j))
 score_dict[str(filename)]= score
 
-with open('PATH_TO_SCORE_FILE', 'w') as score_file:
+with open(-'PATH_TO_SCORE_FILE', 'w') as score_file:
   score_file.write(json.dumps(score_dict))
 
 print(str(filename)+' '+'Done!!!')
