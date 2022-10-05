@@ -67,7 +67,7 @@ distributions
 ### QUICK START
 Run experimentation notebook file directly available [here](https://github.com/yes-its-shivam/gtmhub_timeseries/blob/main/experiment.ipynb)
 
-#### **OR
+#### OR
 
 #### Dependencies
 ```
