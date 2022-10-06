@@ -69,7 +69,7 @@ distributions
 
 #### OR
 
-2. build run in text editor(given below)
+2. Run in text editor(given below)
 #### Dependencies
 ```
 !git clone https://github.com/yes-its-shivam/gtmhub_timeseries.git
